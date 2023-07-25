@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fabrianne</title>
+    <style>
+        body {
+            background-color: #fce4ec; /* Couleur de fond rose clair */
+            margin: 0;
+            padding: 0;
+        }
+        
+        .valentine-theme {
+            background-color: #ffebee; /* Couleur de fond du div */
+            border: 2px solid #ff4081; /* Bordure solide autour du div */
+            padding: 20px;
+            text-align: center;
+            max-width: 500px;
+            margin: 100px auto; /* Centrer le div */
+            position: relative;
+        }
+
+        .valentine-theme::before,
+        .valentine-theme::after {
+            content: '';
+            position: absolute;
+            top: -15px;
+            width: 20px;
+            height: 20px;
+            background-color: #ff4081; /* Couleur des cœurs */
+            border-radius: 50%;
+        }
+
+        .valentine-theme::before {
+            left: -30px;
+        }
+
+        .valentine-theme::after {
+            right: -30px;
+        }
+
+        h1 {
+            color: #ff4081; /* Couleur rouge des titres */
+            font-family: 'Arial', sans-serif;
+        }
+    </style>
+</head>
+<body>
+   <div class="valentine-theme">
+        <h1>COUCOU, Bisous de ano tay</h1>
+   </div> 
+</body>
+</html>
